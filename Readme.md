@@ -28,7 +28,7 @@ Crafting a meaningful test in the age of AI is a challenge, but we’re embracin
 ### **Sidequests**
 
 Choose **three sidequests** to complete:
-(We expect you to pick sidequests that complement your competencies and interests.)
+(We expect you to pick sidequests that complement the role you are applying for, your competencies and interests.)
 
 1. **Styling Challenge**
 
@@ -40,19 +40,22 @@ Choose **three sidequests** to complete:
 
    - Add a feature that allows users to filter jokes by **length**, **category**, or **rating** (if supported by the API or your backend).
    - Explain how you handle edge cases, like unsupported filters.
+  
+3. **Joke Semantic search**
+   - Embed the jokes with an embedding model of your choice(we won't judge the quality of embeddings)
+   - Implement a vector search for the embeddings and make the joke search semantic.
+  
+4. **Containarize and orchestrate**
+   - Containarize your app and other dependencies
+   - Make a orchestration in a tool of your choice that dictates how the different services interact and should be deployed.
 
-3. **Implement voice output for the jokes**
-
-   - Use browser APIs to **speak the joke** to the user.
-   - Explain how you handle edge cases, like unsupported browsers or devices.
-
-4. **Database Feature**
+5. **Database Feature**
 
    - Store a history of searches and joke results using a simple backend.
    - Use **Postgres** or **MongoDB** (or both if you’re feeling adventurous).
    - Document your schema design.
 
-5. **Custom Feature**
+6. **Custom Feature**
    - Add a feature of your choice that makes the app more useful, delightful, or enthusiastically stupid.
    - Tell us why you chose this feature and how you built it.
 
@@ -60,7 +63,7 @@ Choose **three sidequests** to complete:
 
 ### **Submission Guidelines**
 
-- **Document Everything**: Include a README file explaining your setup process, key decisions, and assumptions.
+- **Document**: Include a README file explaining your setup process, key decisions, and assumptions.
 - **Keep it Simple**: This doesn’t need to be a production-ready app. We’re looking for clear, understandable code.
 - **Code Ownership**: Use version control (Git) to demonstrate how you manage your codebase.
 
